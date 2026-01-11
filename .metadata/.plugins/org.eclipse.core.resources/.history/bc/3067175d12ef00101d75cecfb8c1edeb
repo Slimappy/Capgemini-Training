@@ -1,0 +1,24 @@
+package Assignments;
+
+import java.util.Scanner;
+public class TechNumber {
+
+	public static void tech(int num) {
+		
+		int temp=num;
+		int count=0;
+		while(temp>0) {
+			count++;
+			temp/10;
+		}
+	}
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int n=sc.nextInt();
+		
+		tech(n);
+	}
+}

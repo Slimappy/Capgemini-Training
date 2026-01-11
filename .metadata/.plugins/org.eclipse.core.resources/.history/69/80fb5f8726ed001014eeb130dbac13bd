@@ -1,0 +1,9 @@
+package operators.logicalOperator;
+
+public class Program3 {
+
+	public static void main(String args[]) {
+		
+		//Logical NOT
+	}
+}

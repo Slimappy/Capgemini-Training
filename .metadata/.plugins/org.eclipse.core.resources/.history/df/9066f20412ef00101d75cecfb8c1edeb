@@ -1,0 +1,17 @@
+package Assignments;
+
+import java.util.Scanner;
+public class TechNumber {
+
+	public static void tech(int n) {
+		
+		int count=0;
+		while(n!=0) {
+			
+		}
+	}
+	
+	public static void main(String args[]) {
+		
+	}
+}

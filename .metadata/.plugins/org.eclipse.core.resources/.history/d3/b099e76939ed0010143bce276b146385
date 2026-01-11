@@ -1,0 +1,13 @@
+package loopingStmt.whileLoop;
+
+public class Program2 {
+
+	public static void main(String args[]) {
+		
+		int num=1863;
+		int rev=
+		while(num>0) {
+			
+		}
+	}
+}

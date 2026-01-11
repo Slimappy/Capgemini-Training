@@ -1,0 +1,8 @@
+package loopingStmt.whileLoop;
+
+public class PerfectNo {
+
+	public static void main(String args[]) {
+		
+	}
+}

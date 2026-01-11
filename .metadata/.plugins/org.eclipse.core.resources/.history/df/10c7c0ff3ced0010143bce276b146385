@@ -1,0 +1,24 @@
+package loopingStmt.whileLoop;
+
+public class NeonNumber {
+	
+	public static void main(String args[]) {
+		
+		int num=10;
+		int square=num*num;
+		int sum=0;
+		int copy=num;
+		
+		while(square!=0) {
+			sum=sum+square%10;
+			square=square/10;
+		}
+		
+		if(sum==copy) {
+			System.out.println("NEON NUMBER");
+		}
+			else {
+				System.out.println("NOT A NEON NUMBER");
+			}
+		}
+	}

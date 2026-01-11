@@ -1,0 +1,12 @@
+package literals_data;
+
+public class Program2 {
+
+	public static void main(String args[]) {
+		//Literals: Characters & Strings & boolean
+		System.out.println("ArraY");
+		System.out.println('A');
+		System.out.println('3');
+		System.out.println(false);
+	}
+}

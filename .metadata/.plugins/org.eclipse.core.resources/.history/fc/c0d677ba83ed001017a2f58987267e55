@@ -1,0 +1,10 @@
+package loopingStmt.whileLoop;
+
+public class AutomorphicNo {
+
+	public static void main(String args[]) {
+		
+		int num=5;
+		
+	}
+}

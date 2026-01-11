@@ -1,0 +1,27 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class Automorphic {
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int num=sc.nextInt();
+		
+		int square=num*num;		//calculated the square of the number
+		int temp=num;
+		
+		//count digits of the number
+		int digits = 0;
+		while(temp>0) {
+			digits=+1;
+			temp=temp/10;
+		}
+		
+		int divisor=(int)Math.pow(10, digits);
+		
+		
+	}
+}

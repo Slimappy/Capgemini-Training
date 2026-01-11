@@ -1,0 +1,12 @@
+package Assignments;
+
+public class TechNumber {
+
+	public static void tech() {
+		
+	}
+	
+	public static void main(String args[]) {
+		
+	}
+}

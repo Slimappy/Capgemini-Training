@@ -1,0 +1,20 @@
+package Assignments;
+
+public class decToBin {
+
+	public static void main(String args[]) {
+		
+		int n=7;
+		int d=0,bin=0,pow=0;
+        int copy=n;
+        while(n>0){
+            d=n%2;
+            bin=bin+d*(int)Math.pow(10, pow);
+            pow++;
+            n=n/2;
+        }
+        System.out.println("Binary number of " + copy +" is = " +bin);
+        
+        
+	}
+}

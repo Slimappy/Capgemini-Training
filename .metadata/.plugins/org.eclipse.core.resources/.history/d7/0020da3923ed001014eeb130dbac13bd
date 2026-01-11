@@ -1,0 +1,8 @@
+package operators.logicalOperator;
+
+public class Program2 {
+
+	public static void main(String args[]) {
+		
+	}
+}

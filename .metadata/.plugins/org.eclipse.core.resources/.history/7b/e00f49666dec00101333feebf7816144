@@ -1,0 +1,11 @@
+package program_variable;
+
+public class Program3 {
+	
+	//global varibale only for declaration
+	static int i=100;
+	
+	public static void main(String args[]) {
+		
+	}
+}

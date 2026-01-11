@@ -1,0 +1,14 @@
+package Assignments;
+
+public class DifferenceMn {
+
+	public static void main(String args[]) {
+		
+		int m=20;
+		int n=4;
+		
+		for(int i=1;i<=m;i++) {
+			if()
+		}
+	}
+}

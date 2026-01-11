@@ -1,0 +1,33 @@
+0:02:08 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+0:02:08 Microsoft.Browser_Removed
+0:02:11 Tab1 StartNav15 #typed
+0:02:11 Tab1 FinishNav15
+0:02:11 Tab1 PageLoad
+0:02:13 Tab1 StartNav16 #typed
+0:02:13 Tab1 FinishNav16
+0:02:13 Tab1 PageLoad
+0:02:15 Tab1 StartNav17 #typed
+0:02:15 Tab1 FinishNav17
+0:02:15 Tab1 PageLoad
+0:02:17 Tab1 StartNav18 #typed
+0:02:17 Tab1 FinishNav18
+0:02:17 Tab1 PageLoad
+0:02:21 Tab1 StartNav19 #typed
+0:02:21 Tab1 FinishNav19
+0:02:21 Tab1 PageLoad
+0:02:22 Tab1 StartNav20 #typed
+0:02:22 Tab1 FinishNav20
+0:02:22 Tab1 PageLoad
+0:04:16 Tab1 StartNav21 #typed
+0:04:16 Tab1 FinishNav21
+0:04:16 Tab1 PageLoad
+0:04:20 Tab1 StartNav22 #typed
+0:04:20 Tab1 FinishNav22
+0:04:21 Tab1 PageLoad
+0:10:04 Tab1 StartNav23 #typed
+0:10:04 Tab1 FinishNav23
+0:10:04 Tab1 PageLoad
+0:10:18 Tab1 StartNav24 #typed
+0:10:18 Tab1 FinishNav24
+0:10:18 Tab1 PageLoad
+0:11:52 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

@@ -1,0 +1,15 @@
+package methods;
+
+public class Program2 {
+	
+	public static void test() {
+		System.out.println("test start");
+		System.out.println("test end");
+	}
+
+	public static void main(String args[]) {
+		System.out.println("Main start");
+		test();
+		System.out.println("MAin end");
+	}
+}

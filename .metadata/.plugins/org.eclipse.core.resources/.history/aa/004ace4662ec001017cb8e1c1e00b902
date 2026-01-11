@@ -1,0 +1,16 @@
+package program_variable;
+
+public class Program1 {
+
+	public static void main(String args[]) {
+		//Variable --> block of memory, storing data
+		byte a=126;
+		int b=1000000000;
+		long c=100000000000l;
+		char 
+		
+		//in java default integer is "int"
+		//in java default floating point value is "double"
+		
+	}
+}

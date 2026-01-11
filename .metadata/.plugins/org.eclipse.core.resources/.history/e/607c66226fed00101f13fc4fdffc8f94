@@ -1,0 +1,224 @@
+package Assignments;
+
+public class Assignment1 {
+
+	public static void main(String args[]) {
+		
+		/*
+		 * byte to other types 
+		 */
+		
+		//byte to short
+		byte b=127;
+		short s=b;
+		System.out.println(s);
+		
+		//byte to int
+		int i=b;
+		System.out.println(i);
+		
+		//byte to long
+		long l=b;
+		System.out.println(l);
+		
+		//byte to float
+		float f=b;
+		System.out.println(f);
+		
+		//byte to double
+		double d=b;
+		System.out.println(d);
+		
+		//byte to char
+		char c=(char)b;
+		System.out.println(c);
+		
+		System.out.println();
+		
+		/*
+		 * short to other types
+		 */
+		
+		//short to byte
+		short s1=399;
+		byte b1=(byte)s1;
+		System.out.println(b1);
+		
+		//short to int
+		int i1=s1;
+		System.out.println(i1);
+		
+		//short to long
+		long l1=s1;
+		System.out.println(l1);
+		
+		//short to float
+		float f1=s1;
+		System.out.println(f1);
+		
+		//short to double
+		double d1=s1;
+		System.out.println(d1);
+		
+		//short to char
+		char c1=(char)s1;
+		System.out.println(c1);
+		
+		System.out.println();
+		
+		/*
+		 * int to other types
+		 */
+		
+		//int to byte
+		int i2=500;
+		byte b2=(byte)i2;
+		System.out.println(b2);
+		
+		//int to short
+		short s2=(short)i2;
+		System.out.println(s2);
+		
+		//int to long
+		long l2=i2;
+		System.out.println(l2);
+		
+		//int to float
+		float f2=i2;
+		System.out.println(f2);
+		
+		//int to double
+		double d2=i2;
+		System.out.println(d2);
+		
+		//int to char
+		char c2=(char)i2;
+		System.out.println(c2);
+		
+		System.out.println();
+		
+		/*
+		 * long to other types
+		 */
+		
+		//long to byte
+		long l3=999;
+		byte b3=(byte)l3;
+		System.out.println(b3);
+		
+		//long to short
+		short s3=(short)l3;
+		System.out.println(s3);
+		
+		//long to int
+		int i3=(int)l3;
+		System.out.println(i3);
+		
+		//long to float
+		float f3=l3;
+		System.out.println(l3);
+		
+		//long to double
+		double d3=l3;
+		System.out.println(d3);
+		
+		//long to char
+		char c3=(char)l3;
+		System.out.println(c3);
+		
+		System.out.println();
+		
+		/*
+		 * float to other types
+		 */
+		
+		//float to byte
+		float f4=99.9f;
+		byte b4=(byte)f4;
+		System.out.println(b4);
+		
+		//float to short
+		short s4=(short)f4;
+		System.out.println(s4);
+		
+		//float to int
+		int i4=(int)f4;
+		System.out.println(i4);
+		
+		//float to long
+		long l4=(long)f4;
+		System.out.println(l4);
+		
+		//float to double
+		double d4=f4;
+		System.out.println(d4);
+		
+		//float to char
+		char c4=(char)f4;
+		System.out.println(c4);
+		
+		System.out.println();
+		
+		/*
+		 * double to other types
+		 */
+		
+		//double to byte
+		double d5=999.5;
+		byte b5=(byte)d5;
+		System.out.println(b5);
+		
+		//double to short
+		short s5=(short)d5;
+		System.out.println(s5);
+		
+		//double to int
+		int i5=(int)d5;
+		System.out.println(i5);
+		
+		
+		//double to long
+		long l5=(long)d5;
+		System.out.println(l5);
+		
+		//double to float
+		float f5=(float)d5;
+		System.out.println(f5);
+		
+		//double to char
+		char c5=(char)d5;
+		System.out.println(c5);
+		
+		System.out.println();
+		
+		/*
+		 * char to other types
+		 */
+		
+		//char to byte
+		char c6='A';
+		byte b6=(byte)c6;
+		System.out.println(b6);
+		
+		//char to short
+		short s6=(short)c6;
+		System.out.println(s6);
+		
+		//char to int
+		int i6=c6;
+		System.out.println(i6);
+		
+		//char to long
+		long l6=c6;
+		System.out.println(l6);
+		
+		//char to float
+		float f6=c6;
+		System.out.println(f6);
+		
+		//char to double
+		double d6=c6;
+		System.out.println(d6);
+		
+	}
+}

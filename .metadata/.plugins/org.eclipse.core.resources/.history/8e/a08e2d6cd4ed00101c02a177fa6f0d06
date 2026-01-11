@@ -1,0 +1,12 @@
+package Assignments;
+
+public class Amstrong {
+	
+	public static void amstrong(int n) {
+		
+	}
+
+	public static void main(String args[]) {
+		int n
+	}
+}

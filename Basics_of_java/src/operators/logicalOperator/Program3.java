@@ -1,0 +1,18 @@
+package operators.logicalOperator;
+
+public class Program3 {
+
+	public static void main(String args[]) {
+		
+		//Logical NOT ! --> Unary
+		//Negates the value
+		
+		int a=6;
+		System.out.println(!(a<10) || ++a>10);
+		System.out.println(a);
+		
+		int b=6;
+		System.out.println(!(b<10) && ++b>10);
+		System.out.println(b);
+	}
+}

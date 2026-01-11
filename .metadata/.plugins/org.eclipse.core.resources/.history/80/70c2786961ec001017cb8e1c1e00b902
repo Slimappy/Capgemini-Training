@@ -1,0 +1,10 @@
+package program_variable;
+
+public class Program1 {
+
+	public static void main(String args[]) {
+		//Variable --> block of memory, storing data
+		byte b=126;
+		
+	}
+}

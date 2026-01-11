@@ -1,0 +1,26 @@
+package Assignments;
+
+public class Amstrong {
+	
+	public static void amstrong(int n) {
+		
+		int copy=n;
+		int count=0,sum=0;
+		while(copy!=0) {
+			copy=copy/10;
+			count++;
+		}
+		System.out.println(count);
+		
+		while(n!=0) {
+			int digit=n%10;
+			sum=sum
+		}
+		
+	}
+
+	public static void main(String args[]) {
+		int n=153;
+		amstrong(153);
+	}
+}

@@ -1,0 +1,8 @@
+package Assignments;
+
+public class decToBin {
+
+	public static void main(String args[]) {
+		
+	}
+}

@@ -1,0 +1,42 @@
+package Assignments;
+
+import java.util.Scanner;
+public class TechNumber {
+
+	public static void tech(int num) {
+		
+		int temp=num;
+		int count=0;
+		
+		//count digits of the number
+		while(temp>0) {
+			count++;
+			temp=temp/10;
+		}
+		if(count%2!=0) {
+			System.out.println(num+" is not a Tech Number (odd number of digits)");
+		}
+		else {
+			int half=count/2;
+			int divisor=(int)Math.pow(10, half);
+			
+			int firstPart=num/divisor;
+			int secondPart=num%divisor;
+			
+			int sum=firstPart+secondPart;
+			
+			if(sum*sum==num) {
+				
+			}
+		}
+	}
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int n=sc.nextInt();
+		
+		tech(n);
+	}
+}

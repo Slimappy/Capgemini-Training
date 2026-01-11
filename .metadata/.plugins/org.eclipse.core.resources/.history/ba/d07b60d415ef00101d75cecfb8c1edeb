@@ -1,0 +1,31 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class Automorphic {
+	
+	public static void main(String args[]) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int num=sc.nextInt();
+		
+		int square=num*num;		//calculated the square of the number
+		int temp=num;
+		
+		//count digits of the number
+		int digits = 0;
+		while(temp>0) {
+			digits++;
+			temp=temp/10;
+		}
+		
+		int divisor=(int)Math.pow(10, digits);
+		
+		if(square%divisor==num) {
+			System.out.println(num+" is an Automorphic Number");
+		}
+		else
+			System.out.println(num+" is NOT an Automorphic Number");
+	}
+}

@@ -1,0 +1,17 @@
+package literals_data;
+
+public class Program1 {
+	
+	//Ctrl+M-->Maximise window
+
+	public static void main(String args[]) {
+		//Numeric Literals
+		System.out.println(100);
+		System.out.println(-100);
+		System.out.println(0.65);
+		System.out.println(-6.7);
+		
+		System.out.println(014); //0-->Octal format
+		
+	}
+}

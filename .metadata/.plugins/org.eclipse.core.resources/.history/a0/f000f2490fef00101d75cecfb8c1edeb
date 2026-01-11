@@ -1,0 +1,23 @@
+package Assignments;
+
+public class DifferenceMn {
+
+	public static void main(String args[]) {
+		
+		int m=10;
+		int n=2;
+		int divSum=0,unDivSum=0;
+		
+		for(int i=1;i<=m;i++) {
+			if(i%n==0) {
+				divSum=divSum+i;
+			}
+			else {
+				unDivSum=unDivSum+i;
+			}
+		}
+		System.out.println("Difference = "+(unDivSum-divSum));
+	}
+}
+
+//

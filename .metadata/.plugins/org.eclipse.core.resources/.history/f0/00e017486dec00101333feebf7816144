@@ -1,0 +1,9 @@
+package program_variable;
+
+public class Program3 {
+	static int i=100;
+	
+	public static void main(String args[]) {
+		
+	}
+}

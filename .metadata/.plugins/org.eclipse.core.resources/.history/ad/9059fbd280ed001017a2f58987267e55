@@ -1,0 +1,28 @@
+package loopingStmt.whileLoop;
+
+public class Program4 {
+
+	public static void main(String args[]) {
+		 int num=123;
+		 int sum=0;
+		 int product=1;
+		 
+		 while(num!=0) {
+			 sum=sum+num%10;
+			 product=product*num%10;
+			 num=num/10;
+		 }
+		 System.out.println("Sum :"+sum);
+		 System.out.println("Product :"+product);
+		 
+		 if(sum==product) {
+			 System.out.println("SPY NUMBER");
+		 }
+			 else {
+				 System.out.println("NOT A SPY NUMBER");
+			 }
+	}
+}
+
+
+

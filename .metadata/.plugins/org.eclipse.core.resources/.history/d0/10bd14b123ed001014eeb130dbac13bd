@@ -1,0 +1,11 @@
+package operators.logicalOperator;
+
+public class Program2 {
+
+	public static void main(String args[]) {
+		
+		//Logical OR --> terminates on true value
+		System.out.println(false || true || false);
+		
+	}
+}
